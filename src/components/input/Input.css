@@ -1,0 +1,66 @@
+.storybook-input {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  display: inline-block;
+  line-height: 1;
+}
+
+.storybook-input--normal {
+  background: #F5F5F5;
+  border: 1px solid #0E8692;
+  border-radius: 5px;
+}
+
+.storybook-input--password {
+  background: #F5F5F5;
+  border: 1px solid #0E8692;
+  border-radius: 5px;
+}
+
+.storybook-input--success {
+  background: #F5F5F5;
+  border: 1px solid #04A815;
+  border-radius: 5px;
+}
+
+.storybook-input--required {
+  background: #F5F5F5;
+  border: 1px solid #FF0303;
+  border-radius: 5px;
+  color: #FF0303;
+}
+
+.storybook-input--small {
+  width: 190px;
+  height: 20px;
+  font-size: 12px;
+}
+
+.storybook-input--medium {
+  width: 200px;
+  font-size: 14px;
+  height: 20px;
+}
+
+.storybook-input--large {
+  width: 220px;
+  font-size: 16px;
+  height: 20px;
+}
+
+.storybook-input--green {
+  color: green;
+}
+
+.storybook-input--red {
+  color: red;
+}
+
+.storybook-input--icon {
+  position: relative;
+  left: 180px;
+  bottom: 25px;
+  cursor: pointer;
+}
